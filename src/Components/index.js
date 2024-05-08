@@ -1,0 +1,8 @@
+export { Navbar } from './Navbar'
+export { Hero } from './Hero'
+export { DarkModeBtn } from './DarkModeBtn'
+export { About } from './About'
+export { Projects } from './Projects'
+export { Courses } from './Courses'
+export { Contact } from './Contact'
+export { Cursor } from './Cursor'

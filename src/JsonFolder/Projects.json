@@ -1,0 +1,46 @@
+{
+    "projects" : [
+        
+            {
+                "name": "Panic Responsive",
+                "domain": "https://oddy-panicresponsive.netlify.app/",
+                "image": "/Media/Images/Projects/panic-responsive.png",
+                "summary": "Panic is a website created to practice the development of responsive web pages.",
+                "id": 1
+            
+            },
+
+            {
+                "name": "Gamming Ecomerce",
+                "domain": "https://oddy-gamingfront.vercel.app",
+                "image": "/Media/Images/Projects/gaming-ecomerce.png",
+                "summary": "Gamming is a ecomerce, created with Next.Js, Strapi and Stripe to be a complete shopping video games platform.",
+                "id": 2
+              },
+              
+              {
+                "name": "CRM GraphQL",
+                "domain": "https://oddy-crmgql-frontend.vercel.app/",
+                "image": "/Media/Images/Projects/crm-gql.png",
+                "summary": "It's a Customer Relationship Management, created with React and Node.Js to help your business to have a better database of your clients, products and orders.",
+                "id": 3
+              },
+              
+              {
+                "name": "Administrador de citas Vet",
+                "domain": "https://oddy-administradordecitas.netlify.app/",
+                "image": "/Media/Images/Projects/dates-administrator.png",
+                "summary": "A Page, easy to use, helping Vets to manage its dates",
+                "id": 4
+              },
+    
+              {
+                "name": "Frases BreakingBad",
+                "domain": "https://oddy-breakingbad-phrase.vercel.app/",
+                "image": "/Media/Images/Projects/phrases-breakingBad.png",
+                "summary": "A basic project, showing some of the popular phrases of this serie.",
+                "id": 5
+              }
+          
+    ]
+}

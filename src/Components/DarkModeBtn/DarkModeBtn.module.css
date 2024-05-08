@@ -1,0 +1,45 @@
+@import '/src/styles/index.css';
+
+.containerBtn {
+    z-index: 9999;
+    position: fixed;
+    bottom: 1vh;
+    right: 1vw;
+    width: 60px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sunBtn, .moonBtn {
+    position: relative;
+    width: 60px;
+    height: 30px;
+    background-color: var(--day-button);
+    border-radius: 50px;
+    border: 2px solid var(--border-gray);
+
+    transition: .5s ease-in-out;
+}
+
+.moonBtn {
+    background-color: var(--night-button);
+}
+
+.sunIcon {
+    width: 15px;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(-10%, -50%);
+    transition: 1s ease-in-out;
+}
+
+.moonIcon {
+    width: 15px;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-10%, -50%);
+}

@@ -1,0 +1,39 @@
+{
+    "courses": [
+        {
+            "name" : "JavaScript Moderno Guía Definitiva Construye +20 Proyectos",
+            "status" : "Finished",
+            "imageCourse" : "https://i.pinimg.com/originals/71/ee/32/71ee32577432648f9e45fbd63b2cf261.jpg",
+            "urlCourse" : "https://www.udemy.com/course/javascript-moderno-guia-definitiva-construye-10-proyectos/",
+            "platform" : "Udemy"
+        },
+        {
+            "name" : "React - La Guía Completa: Hooks Context Redux MERN +15 Apps",
+            "status" : "Finished",
+            "imageCourse" : "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVhY3QlMjBqc3xlbnwwfHwwfHw%3D&w=1000&q=80",
+            "urlCourse" : "https://www.udemy.com/course/react-de-principiante-a-experto-creando-mas-de-10-aplicaciones/",
+            "platform" : "Udemy"
+
+        },
+        {
+            "name" : "React Avanzado: Fullstack Next.js, Apollo, MongoDB y GraphQL",
+            "status" : "Finished",
+            "imageCourse" : "https://res.cloudinary.com/practicaldev/image/fetch/s--BMWspgKL--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ds4yi6va1jyjhyfroddl.png",
+            "urlCourse" : "https://www.udemy.com/course/fullstack-react-graphql-y-apollo-de-principiante-a-experto/",
+            "platform" : "Udemy"
+        },
+        {
+            "name" : "Next JS: Crea tu tienda online completa",
+            "status" : "Finished",
+            "imageCourse" : "https://blog.logrocket.com/wp-content/uploads/2023/03/biggest-next-js-boilerplates-2023.png",
+            "urlCourse" : "https://www.udemy.com/course/next-js-crea-tu-tienda-online-completa/",
+            "platform" : "Udemy"
+        } ,   
+        {
+            "name" : "React Native - Crea aplicaciones para Android y iOS c/ React",
+            "status" : "Soon",
+            "imageCourse" : "https://www.imarkinfotech.com/wp-content/uploads/2019/07/react-blog-img.png",
+            "urlCourse" : "https://www.udemy.com/course/react-native-crea-aplicaciones-para-android-y-ios-con-react/",
+            "platform" : "Udemy"
+        }    ]
+}

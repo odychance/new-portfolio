@@ -1,0 +1,13 @@
+:root {
+    --min-font: 14px;
+    --small-font: 20px;
+    --mid-font: 32px;
+    --high-font: 54px;
+    --max-font: 72px;
+
+    --min-font-w: 300;
+    --small-font-w: 400;
+    --mid-font-w: 500;
+    --high-font-w: 600;
+    --max-font-w: 700;
+}

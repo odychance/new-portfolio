@@ -1,0 +1,74 @@
+{
+    "tech" : [
+        {
+            "id": 1,
+            "name" : "JavaScript",
+            "icon" : "/Media/Images/TechIcons/JsIcon.png"
+        },
+        {
+            "id": 2,
+            "name" : "HTML",
+            "icon" : "/Media/Images/TechIcons/HTMLIcon.png"
+        },
+        {
+            "id": 3,
+            "name" : "CSS",
+            "icon" : "/Media/Images/TechIcons/CssIcon.png"
+        },
+        {
+            "id": 4,
+            "name" : "NodeJs",
+            "icon" : "/Media/Images/TechIcons/NodeIcon.png"
+        },
+        {
+            "id": 5,
+            "name" : "Sass",
+            "icon" : "/Media/Images/TechIcons/SassIcon.png"
+        },
+        {
+            "id": 6,
+            "name" : "GraphQL",
+            "icon" : "/Media/Images/TechIcons/GraphQLIcon.png"
+        },
+        {
+            "id": 7,
+            "name" : "React",
+            "icon" : "/Media/Images/TechIcons/ReactIcon.png"
+        },
+        {
+            "id": 8,
+            "name" : "GreenSock",
+            "icon" : "/Media/Images/TechIcons/GsapIcon.png"
+        },
+        {
+            "id": 9,
+            "name" : "Apollo",
+            "icon" : "/Media/Images/TechIcons/ApolloIcon.png"
+        },
+        {
+            "id": 10,
+            "name" : "NextJs",
+            "icon" : "/Media/Images/TechIcons/NextIcon.png"
+        },
+        {
+            "id": 11,
+            "name" : "MongoDB",
+            "icon" : "/Media/Images/TechIcons/MongoIcon.png"
+        },
+        {
+            "id": 12,
+            "name" : "GitHub",
+            "icon" : "/Media/Images/TechIcons/GithubIcon.png"
+        },
+        {
+            "id": 13,
+            "name" : "Webflow",
+            "icon" : "/Media/Images/TechIcons/WebflowIcon.png"
+        },
+        {
+            "id": 14,
+            "name" : "Postman",
+            "icon" : "/Media/Images/TechIcons/PostmanIcon.png"
+        }
+    ]
+}

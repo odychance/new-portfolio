@@ -1,0 +1,22 @@
+@import '/src/styles/index.css';
+
+.cursor, .cursorOutline {
+    z-index: 99999;
+    position: fixed;
+    border-radius: 50%;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    transform-origin: center center;
+  }
+  
+  .cursor {
+    background-color: var(--green-blur);
+    width: 15px;
+    height: 15px;
+  }
+  
+  .darkModeActived {
+    background-color: var(--green-apple);
+  }
