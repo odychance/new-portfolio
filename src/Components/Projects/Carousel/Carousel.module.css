@@ -58,6 +58,7 @@
     justify-content: space-evenly;
     align-items: center;
     transition: .5s ease-in-out;
+    color: var(--white);
 }
 
 .containerImage:hover .imageTextContainer {
