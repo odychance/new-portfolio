@@ -19,12 +19,12 @@
               },
               
               {
-                "name": "CRM GraphQL",
-                "domain": "https://oddy-crmgql-frontend.vercel.app/",
-                "image": "/Media/Images/Projects/crm-gql.png",
-                "summary": "It's a Customer Relationship Management, created with React and Node.Js to help your business to have a better database of your clients, products and orders.",
+                "name": "Marvel App",
+                "domain": "https://oddy-marvel.vercel.app/",
+                "image": "/Media/Images/Projects/Marvel-app.png",
+                "summary": "Marvel App is a page dedicated to people who is searching info about some Hero of marvel, You can found Comics, news or some info thanks to use the Marvel API.",
                 "id": 3
-              },
+                },
               
               {
                 "name": "Administrador de citas Vet",
@@ -33,12 +33,12 @@
                 "summary": "A Page, easy to use, helping Vets to manage its dates",
                 "id": 4
               },
-    
+              
               {
-                "name": "Frases BreakingBad",
-                "domain": "https://oddy-breakingbad-phrase.vercel.app/",
-                "image": "/Media/Images/Projects/phrases-breakingBad.png",
-                "summary": "A basic project, showing some of the popular phrases of this serie.",
+                "name": "CRM GraphQL",
+                "domain": "https://oddy-crmgql-frontend.vercel.app/",
+                "image": "/Media/Images/Projects/crm-gql.png",
+                "summary": "It's a Customer Relationship Management, created with React and Node.Js to help your business to have a better database of your clients, products and orders.",
                 "id": 5
               }
           
