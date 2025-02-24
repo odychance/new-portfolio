@@ -27,18 +27,18 @@
                 },
               
               {
-                "name": "Administrador de citas Vet",
-                "domain": "https://oddy-administradordecitas.netlify.app/",
-                "image": "/Media/Images/Projects/dates-administrator.png",
-                "summary": "A Page, easy to use, helping Vets to manage its dates",
+                "name": "FIZZI. Soda for gutsy people.",
+                "domain": "https://fizzi-oddy.vercel.app/",
+                "image": "/Media/Images/Projects/Fizzi.png",
+                "summary": "Created to learn about Prismic and React Three Fiber, it's a good way to drink knowledge.",
                 "id": 4
               },
               
               {
-                "name": "CRM GraphQL",
-                "domain": "https://oddy-crmgql-frontend.vercel.app/",
-                "image": "/Media/Images/Projects/crm-gql.png",
-                "summary": "It's a Customer Relationship Management, created with React and Node.Js to help your business to have a better database of your clients, products and orders.",
+                "name": "Glitsen.ai",
+                "domain": "https://glisten-ai-oddy.vercel.app/",
+                "image": "/Media/Images/Projects/GlitsenAI.png",
+                "summary": "Glitsen is a page dedicated to practice Prismic and Gsap.",
                 "id": 5
               }
           
