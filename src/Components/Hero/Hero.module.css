@@ -50,7 +50,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .blackholeVid {
@@ -73,8 +72,6 @@
 .heroSubtitle {
     position: absolute;
     bottom: 40%;
-
-
     color: var(--white);
     font-size: var(--mid-font);
     font-weight: var(--min-font-w);
@@ -88,10 +85,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     width: 100px;
     height: 100px;
-
     z-index: 10;
 
     > img {

@@ -3,10 +3,7 @@ import styles from './DarkModeBtn.module.css'
 import classNames from "classnames";
 
 export const DarkModeBtn = ({ darkMode, setDarkMode }) => {
-
-    const switchDarkMode = () => {
-        setDarkMode(!darkMode)
-    }
+    const switchDarkMode = () =>  setDarkMode(!darkMode)
 
     return (
         <div className={styles.containerBtn} onClick={switchDarkMode}>

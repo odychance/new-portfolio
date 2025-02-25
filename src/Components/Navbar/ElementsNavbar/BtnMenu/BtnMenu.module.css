@@ -1,7 +1,6 @@
 .containerBtn {
     width: 30px;
     height: 15px;
-
     display: flex;
     flex-direction: column;
     position: relative;
@@ -25,7 +24,6 @@
     bottom: 50%
 }
 
-
 .btnLineMid {
     position: absolute;
     bottom: 50%;
@@ -37,7 +35,6 @@
     left: -50%
 }
 
-
 .btnLineBot {
     position: absolute;
     bottom: 0%;
@@ -46,5 +43,4 @@
 .btnLineBotActived {
     transform: rotate(-225deg);
     bottom: 50%
-
 }

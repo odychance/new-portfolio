@@ -6,8 +6,8 @@
     align-items: center;
     width: 100vw;
     height: 100%;
-    gap: 10px;
-    padding: 10px;
+    gap: 2em;
+    padding: 2em;
     margin-top: -100px;
 }
 
@@ -16,10 +16,13 @@
     display: flex;
     justify-content: center;
     flex: 1;
+    width: 100%;
     height: 70%;
-    transition: .5s ease-in-out;
     text-decoration: none;
     color: var(--black);
+    padding: 0;
+    z-index: 1;
+    transition: .5s ease-in-out;
 }
 
 .darkModeActived {
@@ -29,23 +32,26 @@
 .slide {
     border-radius: 0.5rem;
     box-shadow: 0px 0px 5px #999;
-    width: 18vw;
-    height: 70vh;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    transition: .5s ease-in-out;
-    scale: .9;
+    transition: .5s ease-in-out, filter 0.5s ease-in-out;
+    z-index: 1;
+    filter: none;
 }
 
 .containerImage:hover {
+    height: 50%;
     z-index: 99;
+    transform: scale(1.4);
 }
 
 .containerImage:hover .slide {
-    scale: 1.2;
-    width: 40vw;
-    z-index: 1;
     filter: brightness(50%);
-  }
+    height: auto;
+    width: 100%;
+    transform: scale(1.8);
+}
 
 .imageTextContainer {
     width: 100%;
@@ -109,9 +115,9 @@
         width: 100vw;
         scale: .9;
         filter: none;
-      }
+    }
+
     .containerImage:hover .imageTextContainer {
         opacity: 0;
-        /* cursor: none; */
     }
 }

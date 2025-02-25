@@ -89,7 +89,6 @@
 
 .containerMenuActived {
     pointer-events: auto;
-
     background-color: var(--black-menu);
     border-radius: 20px;
     overflow: hidden;

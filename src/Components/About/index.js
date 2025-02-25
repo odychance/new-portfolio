@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import styles from './About.module.css'
 import classNames from 'classnames'
 import { TechBand } from './TechBand'

@@ -10,17 +10,14 @@ import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 export const Projects = ({ darkMode }) => {
-
     const textsRef = useRef(null)
     const projectsRef = useRef(null)
+    const projectsArr = projects.projects
+    const [ summaryProject, setSummaryProject ] = useState('')
 
     useEffect(() => {
         anim({ textsRef, projectsRef })
     }, [])
-
-    const projectsArr = projects.projects
-
-    const [ summaryProject, setSummaryProject ] = useState('')
 
     return (
     <div className={classNames(styles.projectsContainer, { [ styles.darkModeActived ] : darkMode })} id="projects">
@@ -28,9 +25,7 @@ export const Projects = ({ darkMode }) => {
             <h1 className={styles.projectsHeader}>-Some of my <br/> <span>PROJECTS-</span></h1>
             <h2 className={styles.textIndicator}>Scroll for the projects <br/>to see more...</h2>
         </div>
-
         <Carousel darkMode={darkMode} projectsArr={projectsArr} setSummaryProject={setSummaryProject} summaryProject={summaryProject} projectsRef={projectsRef}/>
-
     </div>
   )
 }

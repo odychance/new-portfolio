@@ -1,26 +1,24 @@
-import React, { useRef, useEffect } from 'react'
+import { useRef, useEffect } from 'react'
 import styles from './Courses.module.css'
 import classNames from 'classnames'
 import courses from '../../JsonFolder/Courses.json'
 import anim from './Courses.anim.js'
 
 export const Courses = ({ darkMode }) => {
-
     const titleRef = useRef(null)
     const coursesRef = useRef(null)
+    const coursesArr = courses.courses
 
     useEffect(() => {
         anim({titleRef, coursesRef})
     }, [])
 
-    const coursesArr = courses.courses
 
   return (
     <div className={classNames( styles.containerCourses, { [ styles.darkModeActived ] : darkMode })}>
         <div className={styles.titleCourses} ref={titleRef}>
             <h2 className={styles.coursesHeader}>COURSES <br/>TAKEN</h2>
         </div>
-
         <div className={styles.courses} ref={coursesRef}>
             {coursesArr.map((item, idx) => {
                 return (
@@ -34,7 +32,6 @@ export const Courses = ({ darkMode }) => {
                 )
             })}
         </div>
-
         <img src="/Media/Images/bg-blur-2.png" className={styles.bgGreen} />
     </div>
   )

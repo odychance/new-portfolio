@@ -1,12 +1,8 @@
-import React from 'react'
 import styles from './BtnMenu.module.css'
 import classNames from 'classnames'
 
 export const BtnMenu = ({statusBtnActived, setStatusBtnActived}) => {
-
-    const switchStatus = () => {
-        setStatusBtnActived(!statusBtnActived)
-    }
+    const switchStatus = () => setStatusBtnActived(!statusBtnActived)
 
   return (
     <div className={styles.containerBtn} onClick={switchStatus}>

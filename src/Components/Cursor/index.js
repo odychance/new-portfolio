@@ -18,14 +18,10 @@ export const Cursor = ({ darkMode }) => {
     window.addEventListener("mousemove", e => {
       cursor.current.x = e.clientX
       cursor.current.y = e.clientY
-
       cursorRef.current.style.transform = `translate(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%))`
-      
       const { current, last, ease } = cursor
-      
       last.x = lerp(last.x, current.x, ease)
       last.y = lerp(last.y, current.y, ease)
-
       cursorOutlineRef.current.style.transform = `translate(calc(${last.x}px - 50%), calc(${last.y}px - 50%))`
     })
   }, [])

@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react'
+import { useRef, useEffect } from 'react'
 import styles from './Hero.module.css'
 import classNames from 'classnames'
 import { gsap } from 'gsap'
@@ -20,15 +20,12 @@ export const Hero = ({darkMode}) => {
     <div className={classNames(styles.containerHero, { [ styles.DarkModeActived ] : darkMode })} id="home">
         <h2 className={styles.FD} ref={titleRef}>FRONTEND DEVELOPER</h2>
         <div className={styles.containerHeroText}>
-
-
             <div className={styles.containerVid} ref={containerVideoRef}>
                 <video src='/Media/Video/blackHoleVid.mp4' className={styles.blackholeVid} loop muted autoPlay ref={videoRef}/>
             </div>
                 <h1 className={styles.heroTitle}>ODLANIER CHANCE</h1>
                 <h2 className={styles.heroSubtitle}>| Welcome My Portfolio |</h2>
         </div>
-
         { !darkMode ? (
             <div className={styles.scrollSpinner}>
                 <img  className={styles.textSpinner} src='/Media/Images/sd-black.png' />

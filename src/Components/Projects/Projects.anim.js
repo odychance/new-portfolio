@@ -1,4 +1,3 @@
-import React from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 
@@ -7,8 +6,6 @@ gsap.registerPlugin(ScrollTrigger)
 const anim = ({ textsRef, projectsRef }) => {
     const projects = [...projectsRef.current.children]
     const texts = [...textsRef.current.children]
-
-    console.log(projects)
 
     texts.forEach( (el, i) => {
         gsap.from(el, {
@@ -28,7 +25,6 @@ const anim = ({ textsRef, projectsRef }) => {
                 end: "top 55%",
             }
         })
-
     })
 
     projects.forEach((el, i) => {
@@ -50,7 +46,6 @@ const anim = ({ textsRef, projectsRef }) => {
             }
         })
     })
-
 }
 
 export default anim

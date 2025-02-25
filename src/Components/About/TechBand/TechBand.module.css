@@ -7,11 +7,9 @@
     height: 150px;
     display: flex;
     flex-direction: column;
-    
     justify-content: space-between;
     align-items: center;
 }
-
 
 @keyframes slide {
     from { transform: translateX(0%);}
@@ -28,13 +26,15 @@
     display: flex;
     align-items: center;
 
+    > div {
+        display: inline-block;
+    }
 }
 
 .band1 {
-    
     > div {
-        display: inline-block;
         animation: 40s slide infinite linear;
+
         > img {
             height: 40px;
             width: 50px;
@@ -45,15 +45,12 @@
                 width: 80px;
             }
         }
-
     }
 }
 
 .band2 {
     > div {
-        display: inline-block;
         animation: 30s slide infinite linear;
-
 
         > span {
             font-weight: var(--mid-font-w);

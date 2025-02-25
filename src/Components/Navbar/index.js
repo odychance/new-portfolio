@@ -2,11 +2,9 @@ import React, { useState } from 'react'
 import styles from './Navbar.module.css'
 import classNames from 'classnames'
 import { Link } from 'react-scroll'
-
 import { BtnMenu } from './ElementsNavbar/BtnMenu'
 
 export const Navbar = ({ darkMode }) => {
-
   const [ statusBtnActived, setStatusBtnActived ] = useState(false)
 
   return (
@@ -17,9 +15,7 @@ export const Navbar = ({ darkMode }) => {
           <BtnMenu statusBtnActived={statusBtnActived} setStatusBtnActived={setStatusBtnActived}/>
         </div>
       </div>
-
         { !statusBtnActived ? (
-
           <div className={styles.containerMenu}>
             <div className={styles.buttons}>
               <Link to="home" spy={true} smooth={true} offset={-110} duration={500}>HOME</Link>
@@ -27,7 +23,6 @@ export const Navbar = ({ darkMode }) => {
               <Link to="projects" spy={true} smooth={true} offset={-20} duration={500}>PROJECTS</Link>
               <Link to="contact" spy={true} smooth={true} offset={-110} duration={800}>CONTACT</Link>
               <a href="/Docs/Cv:OddyChance.pdf" download className={styles.cv}>Download CV</a>
-
             </div>
           </div>
        ) : (
