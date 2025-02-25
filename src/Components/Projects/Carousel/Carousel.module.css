@@ -15,8 +15,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    width: 100%;
-    max-width: 100vw !important;
+    flex: 1;
     height: 70%;
     transition: .5s ease-in-out;
     text-decoration: none;
@@ -37,11 +36,14 @@
     scale: .9;
 }
 
+.containerImage:hover {
+    z-index: 99;
+}
+
 .containerImage:hover .slide {
     scale: 1.2;
     width: 40vw;
     z-index: 1;
-    /* opacity: .8; */
     filter: brightness(50%);
   }
 
@@ -86,4 +88,30 @@
 .summaryText {
     letter-spacing: 5px;
     line-height: 1.5em;
+}
+
+@media screen and (max-width: 430px) {
+    .containerCarousel {
+        flex-direction: column;
+    }
+
+    .containerImage {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .slide {
+        width: 100vw;
+        height: 100%;
+    }
+
+    .containerImage:hover .slide {
+        width: 100vw;
+        scale: .9;
+        filter: none;
+      }
+    .containerImage:hover .imageTextContainer {
+        opacity: 0;
+        /* cursor: none; */
+    }
 }

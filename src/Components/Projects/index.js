@@ -25,8 +25,8 @@ export const Projects = ({ darkMode }) => {
     return (
     <div className={classNames(styles.projectsContainer, { [ styles.darkModeActived ] : darkMode })} id="projects">
         <div className={styles.projectsInfo} ref={textsRef}>
-            <h2 className={styles.textIndicator}>Scroll for the projects <br/>to see more...</h2>
             <h1 className={styles.projectsHeader}>-Some of my <br/> <span>PROJECTS-</span></h1>
+            <h2 className={styles.textIndicator}>Scroll for the projects <br/>to see more...</h2>
         </div>
 
         <Carousel darkMode={darkMode} projectsArr={projectsArr} setSummaryProject={setSummaryProject} summaryProject={summaryProject} projectsRef={projectsRef}/>

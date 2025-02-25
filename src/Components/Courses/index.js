@@ -18,8 +18,7 @@ export const Courses = ({ darkMode }) => {
   return (
     <div className={classNames( styles.containerCourses, { [ styles.darkModeActived ] : darkMode })}>
         <div className={styles.titleCourses} ref={titleRef}>
-            <h2 className={styles.coursesHeader}>_ COURSES</h2>
-            <h2 className={styles.coursesHeader}>TAKEN_</h2>
+            <h2 className={styles.coursesHeader}>COURSES <br/>TAKEN</h2>
         </div>
 
         <div className={styles.courses} ref={coursesRef}>

@@ -1,8 +1,5 @@
 @import '/src/styles/index.css';
 
-a {
-}
-
 .separatorLine {
     pointer-events: none;
 }
@@ -12,25 +9,20 @@ a {
     width: 100%;
     height: 60px;
     border-bottom: 1px solid var(--black);
-
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
     position: fixed;
-
     background-color: rgba(f, f, f, 0.5);
     transition: .5s ease-in-out;
-    
 }
 
 .darkModeActived {
     border-color: var(--white);
 
     > div > span { color: var(--white);}
-
     > div > div > div > div{ background-color: var(--white);}
-
     > div > div > a { color: var(--white);}
 }
 
@@ -71,12 +63,8 @@ a {
     justify-content: space-between;
     align-items: center;
     pointer-events: none;
-
-
-    
     
     > div {
-        
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -91,13 +79,11 @@ a {
             transition: .3s ease-in-out;
             opacity: 0;
             border-radius: 5px;
-
             
             &:last-of-type {
                 margin-top: 10px;
             }
         }
-        
     }
 }
 
@@ -124,4 +110,26 @@ a {
 
 .cv {
     color: var(--black);
+}
+
+@media screen and (max-width: 430px){
+    .containerNavbar {
+        position: fixed;
+        width: 100vw;
+        height: 40px;
+        padding: 5px;
+        transition: all .3s;
+    }
+    
+    .ContainerNavbarAndMenu {
+        height: 250px;
+        width: 100vw;
+        transition: all .3s;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

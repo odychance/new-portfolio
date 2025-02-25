@@ -9,11 +9,9 @@
     align-items: center;
     overflow: hidden;
     padding-top: 200px;
-
     color: var(--black);
     transition: .5s ease-in-out;
     position: relative;
-
 }    
 
 .darkModeActived {
@@ -21,29 +19,32 @@
     background-color: var(--background-secondary);
 }    
 
+.infoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
 .aboutText1 {
     width: 24vw;
     text-align: left;
-    top: 30vh;
-    left: 10vw;
+    margin-top: -10em;
 }
 
 .profilePhoto {
     width: 20vw;
     border-radius: 50%;
-    margin-bottom: 2em;
 }
 
 .aboutText2 {
     width: 24vw;
     text-align: right;
-    bottom: 30vh;
-    right: 10vw
+    margin-top: 10em;
 }
 
 .aboutText1, .aboutText2 {
-    position: absolute;
-
     font-size: var(--small-font);
     letter-spacing: 2px;
     line-height: 1.5em;
@@ -52,7 +53,28 @@
 
 .technologyCarrousel {
     position: absolute;
-    background-color: red;
     width: 100%;
     height: 80px;
+}
+
+@media screen and (max-width: 430px) {
+    .infoContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutText1 {
+        width: 100vw;
+        text-align: left;
+        margin-top: 0;
+    }
+    .aboutText2 {
+        width: 24vw;
+        text-align: right;
+        height: 100%;
+        margin-top: 0;
+    }
+    .aboutText1, .aboutText2, .profilePhoto {
+        width: 80vw;
+        text-align: center;
+    }
 }

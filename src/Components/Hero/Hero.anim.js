@@ -1,4 +1,3 @@
-import React from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 
@@ -36,7 +35,6 @@ const anim = ({containerVideoRef, titleRef, videoRef}) => {
             ease: "power1.easeInOut"
         }
     })
-
     
     gsap.fromTo( title, {
         x: "20vw",
@@ -44,7 +42,6 @@ const anim = ({containerVideoRef, titleRef, videoRef}) => {
     }, {
         x: 0,
         opacity: .7,
-
         duration: .5,
         scrollTrigger: {
             trigger: containerVideo,

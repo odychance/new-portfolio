@@ -83,3 +83,19 @@
     z-index: -2;
     pointer-events: none;
 }
+
+@media screen and (max-width: 430px) {
+    .containerCourses {
+        height: auto;
+    }
+    .titleCourses {
+        margin-bottom: 1em;
+    }
+    .coursesHeader {
+        text-align: center;
+    }
+
+    .course :nth-of-type(1) :nth-of-type(1)  {
+        display: none;
+    }
+}
