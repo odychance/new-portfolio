@@ -10,22 +10,6 @@
             
             },
 
-            {
-                "name": "Gamming Ecomerce",
-                "domain": "https://oddy-gamingfront.vercel.app",
-                "image": "/Media/Images/Projects/gaming-ecomerce.png",
-                "summary": "Gamming is a ecomerce, created with Next.Js, Strapi and Stripe to be a complete shopping video games platform.",
-                "id": 2
-              },
-              
-              {
-                "name": "Marvel App",
-                "domain": "https://oddy-marvel.vercel.app/",
-                "image": "/Media/Images/Projects/Marvel-app.png",
-                "summary": "Marvel App is a page dedicated to people who is searching info about some Hero of marvel, You can found Comics, news or some info thanks to use the Marvel API.",
-                "id": 3
-                },
-              
               {
                 "name": "FIZZI. Soda for gutsy people.",
                 "domain": "https://fizzi-oddy.vercel.app/",

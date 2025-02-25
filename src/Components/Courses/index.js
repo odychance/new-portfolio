@@ -26,9 +26,11 @@ export const Courses = ({ darkMode }) => {
             {coursesArr.map((item, idx) => {
                 return (
                     <div key={idx} className={styles.course}>
-                        <h3>{item.platform}</h3>
-                        <h3>{item.name}</h3>
-                        <h3>{item.status}</h3>
+                        <a href={item.urlCourse} target='_blank'>
+                            <h3>{item.platform}</h3>
+                            <h3>{item.name}</h3>
+                            <h3>{item.status}</h3>
+                        </a>
                     </div>
                 )
             })}

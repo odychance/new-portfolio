@@ -37,7 +37,7 @@ export const Navbar = ({ darkMode }) => {
               <Link to="about" spy={true} smooth={true} offset={-10} duration={500}>ABOUT</Link>
               <Link to="projects" spy={true} smooth={true} offset={-20} duration={500}>PROJECTS</Link>
               <Link to="contact" spy={true} smooth={true} offset={-110} duration={800}>CONTACT</Link>
-              <a href="/Docs/Cv:OddyChance.pdf" download className={styles.cv}>Download CV</a>
+              <a href="/Docs/Curriculum-oddy.pdf" download className={styles.cv}>Download CV</a>
             </div>
           </div>
         )}

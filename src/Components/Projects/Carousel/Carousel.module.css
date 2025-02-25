@@ -41,7 +41,7 @@
     scale: 1.2;
     width: 40vw;
     z-index: 1;
-    opacity: .8;
+    /* opacity: .8; */
     filter: brightness(50%);
   }
 
@@ -84,6 +84,6 @@
 }
 
 .summaryText {
-letter-spacing: 5px;
-line-height: 1.5em;
+    letter-spacing: 5px;
+    line-height: 1.5em;
 }

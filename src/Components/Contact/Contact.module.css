@@ -91,13 +91,16 @@
             
             > img {
                 margin-left: 20px;
-                height: 5vh;
-                width: 0%;
+                height: auto;
+                width: 3vw;
+                padding: 4px;
                 transition: .3s ease-in-out;
+                border-bottom: 1px solid transparent;
             }    
-
+            
             &:hover > img {
-                width: 40%;
+                border-color: var(--bold-gray-normal);
+                scale: 1.1;
             }
         }            
     }

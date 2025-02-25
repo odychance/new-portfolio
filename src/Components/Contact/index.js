@@ -20,28 +20,28 @@ export const Contact = ({ darkMode }) => {
 
                 <div className={styles.btnHover}>
                     <a href='https://www.linkedin.com/in/oddychance' className={styles.iconBtn} target="_blank">
-                        <span>LinkedIn</span>
+                        {/* <span>LinkedIn</span> */}
                         <img src='/Media/Images/IconsContact/LinkedInIcon.png' />
                     </a>
                 </div>
 
                 <div className={styles.btnHover}>
                     <a href='mailto:odychance96@gmail.com' className={styles.iconBtn} target="_blank">
-                        <span>Gmail</span>
+                        {/* <span>Gmail</span> */}
                         <img src='/Media/Images/IconsContact/MailIcon.png' />
                     </a>
                 </div>
 
                 <div className={styles.btnHover}>
                     <a href='https://wa.me/541132584511' className={styles.iconBtn} target="_blank">
-                        <span>Whatsapp</span>
+                        {/* <span>Whatsapp</span> */}
                         <img src='/Media/Images/IconsContact/WhatsappIcon.png' />
                     </a>
                 </div>
 
                 <div className={styles.btnHover}>
                     <a href='https://github.com/odychance' className={styles.iconBtn} target="_blank">
-                        <span>GitHub</span>
+                        {/* <span>GitHub</span> */}
                         <img src='/Media/Images/IconsContact/GitHubIcon.png' />
                     </a>
                 </div>

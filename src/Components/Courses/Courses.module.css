@@ -23,6 +23,10 @@
         &:first-of-type {
             border-color: var(--white);
         }
+
+        > a {
+            color: #fff;
+        }
     }
 }
 
@@ -44,20 +48,22 @@
 
 .course {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 10px;
     border-bottom: 2px solid var(--black);
     letter-spacing: 5px;
     padding: 20px;
-
     
-    > h3 {
-        font-size: var(--small-font);
+    > a {
+        color: var(--black);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
+        > h3 {
+            font-size: var(--small-font);
+    
+        }
     }
-
     &:first-of-type {
         border-top: 2px solid var(--black);
     }
@@ -66,6 +72,8 @@
         width: 90vw;
         padding-left: 50px;
     }
+
+
 }
 
 .bgGreen {
