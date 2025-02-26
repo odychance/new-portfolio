@@ -1,0 +1,20 @@
+.containerLoader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var( --background-primary);
+  z-index: calc(9999999 * 9999);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  position: absolute;
+  font-size: var(--high-font);
+  font-weight: var(--mid-font-w);
+  transition: all .5s ;
+  opacity: 0;
+}
