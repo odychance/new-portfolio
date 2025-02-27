@@ -24,7 +24,7 @@ export const Hero = ({darkMode}) => {
                 <video src='/Media/Video/blackHoleVid.mp4' className={styles.blackholeVid} loop muted autoPlay ref={videoRef}/>
             </div>
                 <h1 className={styles.heroTitle}>ODLANIER CHANCE</h1>
-                <h2 className={styles.heroSubtitle}>| Welcome My Portfolio |</h2>
+                <h2 className={styles.heroSubtitle}>WELCOME</h2>
         </div>
         { !darkMode ? (
             <div className={styles.scrollSpinner}>

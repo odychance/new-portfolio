@@ -9,7 +9,7 @@ const anim = ({ titleRef, coursesRef }) => {
     const courses = [...coursesRef.current.children]
 
     title.forEach((el, i) => {
-        gsap.from(el, {
+        gsap.set(el, {
             x: i % 2 === 0 ? -400 : 400,
             opacity: 0
         })
@@ -28,7 +28,7 @@ const anim = ({ titleRef, coursesRef }) => {
     })
 
     courses.forEach((el, i) => {
-        gsap.from( el, {
+        gsap.set( el, {
             x: 300,
             opacity: 0
         })

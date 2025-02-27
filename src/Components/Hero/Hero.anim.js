@@ -8,9 +8,11 @@ const anim = ({containerVideoRef, titleRef, videoRef}) => {
     const title = titleRef.current
     const video = videoRef.current
 
-    gsap.fromTo(containerVideo, {
+    gsap.set(containerVideo, {
         height: "100%"
-    }, {
+    })
+    
+    gsap.to(containerVideo, {
         height: "60%",
         duration: 1,
         scrollTrigger: {
@@ -22,9 +24,11 @@ const anim = ({containerVideoRef, titleRef, videoRef}) => {
         }
     })
     
-    gsap.fromTo(video, {
+    gsap.set(video, {
         scale: 1
-    }, {
+    })
+    
+    gsap.to(video, {
         scale: 1.6,
         duration: 2,
         scrollTrigger: {
@@ -36,10 +40,11 @@ const anim = ({containerVideoRef, titleRef, videoRef}) => {
         }
     })
     
-    gsap.fromTo( title, {
-        x: "20vw",
+    gsap.set(title, {
+        x: "-20vw",
         opacity: 0,
-    }, {
+    })
+    gsap.to(title, {
         x: 0,
         opacity: .7,
         duration: .5,

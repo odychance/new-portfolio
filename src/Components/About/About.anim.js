@@ -9,10 +9,11 @@ const anim = ({ text1Ref, text2Ref, imageRef, bandsRef }) => {
     const image = imageRef.current
     const bands = bandsRef.current
 
-    gsap.fromTo(text1, {
+    gsap.set(text1, {
         opacity: 0,
         x: -200
-    }, {
+    })
+    gsap.to(text1, {
         opacity: 1,
         x: 0,
         duration: 1,
@@ -24,10 +25,12 @@ const anim = ({ text1Ref, text2Ref, imageRef, bandsRef }) => {
             end: "top 55%"
         }
     })
-    gsap.fromTo(text2, {
+
+    gsap.set(text2, {
         opacity: 0,
         x: 200
-    }, {
+    })
+    gsap.to(text2, {
         opacity: 1,
         x: 0,
         duration: 1,
@@ -39,10 +42,13 @@ const anim = ({ text1Ref, text2Ref, imageRef, bandsRef }) => {
             end: "top 55%"
         }
     })
-    gsap.fromTo(image, {
+
+    gsap.set(image, {
         opacity: 0,
         y: 200
-    }, {
+    })
+
+    gsap.to(image, {
         opacity: 1,
         y: 0,
         duration: 1,
@@ -54,10 +60,12 @@ const anim = ({ text1Ref, text2Ref, imageRef, bandsRef }) => {
             end: "top 55%"
         }
     })
-    gsap.fromTo(bands, {
+
+    gsap.set(bands, {
         opacity: 0,
         y: 200
-    }, {
+    })
+    gsap.to(bands, {
         opacity: 1,
         y: 0,
         duration: 1,
