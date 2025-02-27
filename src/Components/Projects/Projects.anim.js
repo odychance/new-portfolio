@@ -8,7 +8,7 @@ const anim = ({ textsRef, projectsRef }) => {
     const texts = [...textsRef.current.children]
 
     texts.forEach( (el, i) => {
-        gsap.from(el, {
+        gsap.set(el, {
             x: i === 0 ? -300 : 500,
             opacity: 0
         })
@@ -28,7 +28,7 @@ const anim = ({ textsRef, projectsRef }) => {
     })
 
     projects.forEach((el, i) => {
-        gsap.from(el, {
+        gsap.set(el, {
             x: i % 2 === 0 ? 300 : -300,
             opacity: 0,
         })
