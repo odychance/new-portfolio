@@ -1,30 +1,33 @@
 {
-    "projects" : [
-        
-            {
-                "name": "Panic Responsive",
-                "domain": "https://oddy-panicresponsive.netlify.app/",
-                "image": "/Media/Images/Projects/panic-responsive.png",
-                "summary": "Panic is a website created to practice the development of responsive web pages.",
-                "id": 1
-            
-            },
-
-              {
-                "name": "FIZZI. Soda for gutsy people.",
-                "domain": "https://fizzi-oddy.vercel.app/",
-                "image": "/Media/Images/Projects/Fizzi.png",
-                "summary": "Created to learn about Prismic and React Three Fiber, it's a good way to drink knowledge.",
-                "id": 4
-              },
-              
-              {
-                "name": "Glitsen.ai",
-                "domain": "https://glisten-ai-oddy.vercel.app/",
-                "image": "/Media/Images/Projects/GlitsenAI.png",
-                "summary": "Glitsen is a page dedicated to practice Prismic and Gsap.",
-                "id": 5
-              }
-          
-    ]
+  "projects" : [
+    {
+        "name": "Panic Responsive",
+        "domain": "https://oddy-panicresponsive.netlify.app/",
+        "image": "/Media/Images/Projects/panic-responsive.png",
+        "summary": "Panic is a website created to practice the development of responsive web pages.",
+        "id": 1
+    
+    },
+    {
+      "name": "FIZZI. Soda for gutsy people.",
+      "domain": "https://fizzi-oddy.vercel.app/",
+      "image": "/Media/Images/Projects/Fizzi.png",
+      "summary": "Created to learn about Prismic and React Three Fiber, it's a good way to drink knowledge.",
+      "id": 2
+    },
+    {
+      "name": "SNK - Wiki fandom",
+      "domain": "https://snk-oddy.vercel.app/",
+      "image": "/Media/Images/Projects/SNK.png",
+      "summary": "SNK is a full stack project, created to practice the use of apollo GQL in the backend and Nextjs in the frontend.",
+      "id": 3
+    },
+    {
+      "name": "Glitsen.ai",
+      "domain": "https://glisten-ai-oddy.vercel.app/",
+      "image": "/Media/Images/Projects/GlitsenAI.png",
+      "summary": "Glitsen is a page dedicated to practice Prismic and Gsap.",
+      "id": 4
+    }
+  ]
 }
