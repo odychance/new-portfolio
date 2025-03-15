@@ -16,18 +16,25 @@
       "id": 2
     },
     {
+      "name": "APE COIN - A Different Stake.",
+      "domain": "https://oddy-bored-ape.vercel.app/",
+      "image": "/Media/Images/Projects/ape-coin.png",
+      "summary": "Ape coin is a project focused mainly focused on frontend, created with different hooks like parallax and a carousel made only with javaScript.",
+      "id": 3
+    },
+    {
       "name": "SNK - Wiki fandom",
       "domain": "https://snk-oddy.vercel.app/",
       "image": "/Media/Images/Projects/SNK.png",
       "summary": "SNK is a full stack project, created to practice the use of apollo GQL in the backend and Nextjs in the frontend.",
-      "id": 3
+      "id": 4
     },
     {
       "name": "Glitsen.ai",
       "domain": "https://glisten-ai-oddy.vercel.app/",
       "image": "/Media/Images/Projects/GlitsenAI.png",
       "summary": "Glitsen is a page dedicated to practice Prismic and Gsap.",
-      "id": 4
+      "id": 5
     }
   ]
 }
