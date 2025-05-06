@@ -1,19 +1,19 @@
 {
   "projects" : [
     {
-        "name": "Panic Responsive",
-        "domain": "https://oddy-panicresponsive.netlify.app/",
-        "image": "/Media/Images/Projects/panic-responsive.png",
-        "summary": "Panic is a website created to practice the development of responsive web pages.",
-        "id": 1
-    
-    },
-    {
       "name": "FIZZI. Soda for gutsy people.",
       "domain": "https://fizzi-oddy.vercel.app/",
       "image": "/Media/Images/Projects/Fizzi.png",
       "summary": "Created to learn about Prismic and React Three Fiber, it's a good way to drink knowledge.",
-      "id": 2
+      "id": 1
+    },
+    {
+        "name": "Radio Sunset Fm.",
+        "domain": "https://oddy-radiosunset.vercel.app/",
+        "image": "/Media/Images/Projects/radioSunset.png",
+        "summary": "RadioSunset is a fully functional project created with the purpose of listening to country music-oriented radio stations, built with gsap, nextjs, and scss.",
+        "id": 2
+    
     },
     {
       "name": "APE COIN - A Different Stake.",
